@@ -1,6 +1,6 @@
 # sparkline
 
-![](https://gyazo.com/fc2685f3a229b15f02a337092808d9b1/raw)
+![](https://gyazo.com/fc2685f3a229b15f02a337092808d9b1/thumb/280)
 
 ## bar
 
