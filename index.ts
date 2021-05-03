@@ -181,12 +181,12 @@ const createSvgText = (values: number[] = [], options: RenderOptions) => {
 }
 
 function handleRequest(values: number[], options: RenderOptions) {
-  const resHeader = {
+  const headers = {
     'Content-Type': 'image/svg+xml',
     'Cache-Control': 'no-store'
   }
   const data = createSvgText(values, options)
-  return new Response(data, resHeader)
+  return new Response(data, { headers })
 }
 
 addEventListener('fetch', event => {
