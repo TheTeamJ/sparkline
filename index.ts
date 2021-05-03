@@ -147,7 +147,10 @@ const createSvgText = (values: number[] = [], options: RenderOptions) => {
     : []
 
   const svgRects = chartOptions.bar
-    ? renderRects(heights, { maxHeight, width: 3 })
+    ? renderRects(heights, {
+      maxHeight,
+      width: 3
+    })
     : []
 
   const grayScaleSettings = []
